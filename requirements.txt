@@ -1,0 +1,12 @@
+# Pinned to the versions this project was developed and tested against.
+# Python 3.11+ recommended (developed on 3.12).
+numpy==2.1.0
+pandas==2.2.2
+scipy==1.15.3
+statsmodels==0.14.5
+matplotlib==3.9.2
+yfinance==1.5.1
+arch==8.0.0
+pytest==9.0.3
+# yfinance 1.5.x uses curl_cffi for browser-impersonated requests (avoids Yahoo throttling)
+curl_cffi>=0.7

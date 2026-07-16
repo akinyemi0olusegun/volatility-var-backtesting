@@ -1,0 +1,6 @@
+model,kupiec_pass_rate,n_tests,mean_abs_rate_error_bps,red_zones_99
+historical,0.7,10,43.63957597173118,0
+normal_rolling,0.6,10,82.86219081272075,0
+garch_t,0.5,10,51.00706713780903,0
+garch_normal,0.5,10,66.34275618374541,0
+ewma,0.5,10,74.2932862190811,0

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep the folder structure but not large regenerated artifacts.
+# Cached market data and results are reproducible via `python run_analysis.py`,
+# but we DO commit them so the README numbers/figures are viewable without a run.
+# (Comment the next lines out if you prefer to commit data/ and results/.)
+# data/*.csv
+# results/figures/*.png
+# results/tables/*.csv
